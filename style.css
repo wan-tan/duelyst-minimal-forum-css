@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,500');
+
+body, .user-table, .about, #list-area, #main, article, .topics, #topic-footer-buttons{
+	background: none;
+}
+
+.badge-card{
+	background: #181818;
+}
+
+aside.quote .title{
+	border: none;
+	padding: 10px !important;
+}
+.quote blockquote{
+	background: #181818;
+	border: 1px solid #333;
+}
+
+.badge-card .badge-contents .badge-icon{
+	background: #111;
+}
+
+.user-main .user-content {
+    padding: 0;
+    background-color: #222;
+    border: 0px;
+}
+
+.user-navigation .nav-stacked{
+	background: #181818;
+}
+
+body .avatar-wrapper, .topic-avatar{
+    padding-right: 15px;
+}
+
+.username a{
+	font-size: 1.4em;
+	font-weight: 500;
+}
+
+.topic-meta-data{
+	padding-top: 9px;
+}
+
+.cooked p{
+	line-height: 1.4em;
+	font-size: .95em;
+}
+
+.stats-section ul li{
+	background: #181811;
+}
+
+*{
+	font-family: "Rubik";
+	font-weight: 300;
+}
+
+.icons i{
+	color: #eee;
+}
+
+
+/* REPLY BOX */
+#reply-control{
+	background: #111;
+  border-top: 3px solid #ff9900 !important;
+}
+
+#reply-control input, #reply-control div{
+	border: none;
+}
+
+#reply-control textarea{
+	color: #fff;
+  background: rgba(40,40,40,.9) !important;
+  padding: 16px !important;
+  line-height: 1.5em;
+}
+
+.d-editor-preview{
+	background: rgba(0,0,0,.6) !important;
+  border: 1px solid rgba(255,255,255,.2) !important;
+}
+
+#reply-control .control{
+	padding-top: 6px !important;
+}
